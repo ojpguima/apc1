@@ -8,10 +8,18 @@ int main (){
   int meses;
   int dias;
 
-  printf("Quantos anos tem Cleiton?");
+  printf("Quantos anos tem Cleiton? ");
   int oi = scanf("%i", &anos);
 
-  anos = dias/
+  printf("Quantos meses tem Cleiton? ");
+  oi = scanf("%i", &meses);
+  printf("Quantos dias tem Cleiton? ");
+  oi = scanf("%i", &dias);
+
+  int idade_em_dias = anos*365 + meses*30 + dias;
+  
+
+  printf("Cleiton tem %i\n", idade_em_dias);
   
   return 0;
 }
